@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var apkPath=externalCacheDir.absolutePath+"/plugin.apk"
+        Log.i("mlx",apkPath)
         loadApk(apkPath)
     }
 
