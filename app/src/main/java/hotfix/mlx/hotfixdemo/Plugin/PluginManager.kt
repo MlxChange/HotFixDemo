@@ -36,7 +36,6 @@ class PluginManager private constructor(var context: Context){
     fun createAssetManager(apkPath:String){
         try{
             var assetManager=AssetManager::class.java.newInstance()
-
         }catch(e:Exception){
             e.printStackTrace()
         }
