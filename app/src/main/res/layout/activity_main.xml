@@ -25,4 +25,10 @@
 		android:text="fix"
 		 />
 
+	<Button
+		android:text="plugin"
+		android:onClick="plugin"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
 </LinearLayout>
