@@ -13,6 +13,7 @@ class PluginManager private constructor(var context: Context){
     var outdir=context.getDir("opt",Activity.MODE_PRIVATE)
 
     companion object {
+        @JvmField
         var instance:PluginManager?=null
         fun getInstance(context: Context):PluginManager {
             if (instance == null) {
